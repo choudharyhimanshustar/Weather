@@ -1,0 +1,30 @@
+.weather
+{
+    display:flex;
+    flex-direction: column;
+    background-color: #FFF0D1;
+    margin: 1%;
+    border-radius: 2.5rem;
+}
+.WeatherComp
+{
+    background-color: #f2bf52;
+    width:20%;
+    height:20vh;
+    text-align: center;
+    border-radius: 2.5rem;
+    color: #8f6510;
+    padding: 2%;
+}
+.WeatherComp:hover
+{
+    background-color: #e8bb61;
+}
+.weatherSecDiv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5%;
+    font-size: medium;
+}

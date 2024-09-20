@@ -1,0 +1,53 @@
+.Home
+{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.SearchBar
+{
+  display: flex;
+  flex-direction: row;
+  border-radius: 2.5rem;
+  background-color: #FFF0D1;
+  width:fit-content;
+  padding: 1%;
+  position: relative;
+  left:40%
+}
+
+.SearchBar input
+{
+  border: none;
+  background-color: #FFF0D1;
+  border-color: transparent;
+  outline:none;
+  color: rgb(130, 118, 118);
+}
+
+.SearchBar button
+{
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.Weather
+{
+  width:90%;
+  margin-top: 2%;
+}
+
+.Webrico
+{
+    background-color:#FFF0D1;
+    width:95%;
+    margin: 2% 1.5%;
+    padding: 1%;
+    border-radius: 2.5rem;
+    height: 80vh;
+    text-align: center;
+    color: #f2bf52;
+}
