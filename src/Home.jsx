@@ -10,7 +10,7 @@ export default function Home() {
     
     
     
-    const url = `http://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_API_KEY}&q=${city}`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_API_KEY}&q=${city}`;
 
     async function handleClick() {
         try {
